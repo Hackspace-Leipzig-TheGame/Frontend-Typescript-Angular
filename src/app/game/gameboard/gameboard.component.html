@@ -1,0 +1,11 @@
+<app-card-hand [connections]="connections" [selected]="selectedCard" (cardSelected)="selectCard($event)">
+</app-card-hand>
+
+<app-players [players]="players$ | async"></app-players>
+
+<div class="grid">
+    <app-card-stack [size]="1" (click)="selectStack(0)"></app-card-stack>
+    <app-card-stack [size]="1" (click)="selectStack(1)"></app-card-stack>
+    <app-card-stack [size]="100" (click)="selectStack(2)"></app-card-stack>
+    <app-card-stack [size]="100" (click)="selectStack(3)"></app-card-stack>
+</div>

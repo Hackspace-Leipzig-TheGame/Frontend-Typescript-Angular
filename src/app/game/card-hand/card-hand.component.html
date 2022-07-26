@@ -1,0 +1,2 @@
+<app-card (click)="select(i)" *ngFor="let card of currentHand$ | async; let i = index" [cardNumber]="card"
+    [ngClass]="{'selected': selected === i, 'blocked': onlyCards().includes(i)}"></app-card>

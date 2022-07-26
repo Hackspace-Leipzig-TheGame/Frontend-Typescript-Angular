@@ -1,0 +1,13 @@
+<div>
+    <h1>Username</h1>
+    <input [formControl]="usernameForm" placeholder="username" />
+</div>
+<div>
+    <h1>Create new game</h1>
+    <button (click)="createGame()">Create</button>
+</div>
+<div>
+    <h1>Join existing game</h1>
+    <input [formControl]="joinGameIdForm" />
+    <button (click)="joinGame()">Join</button>
+</div>

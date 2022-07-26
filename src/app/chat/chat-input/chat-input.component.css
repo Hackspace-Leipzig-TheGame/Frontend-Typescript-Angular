@@ -1,0 +1,8 @@
+:host {
+    padding: 8px 4px;
+}
+
+form {
+    display: flex;
+    max-width: 100%;
+}

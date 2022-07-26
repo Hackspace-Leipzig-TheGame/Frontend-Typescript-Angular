@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+input {
+    padding: 8px 12px;
+}
+button {
+    padding: 8px 12px;
+
+}

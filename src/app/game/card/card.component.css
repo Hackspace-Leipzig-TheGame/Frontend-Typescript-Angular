@@ -1,0 +1,10 @@
+:host {
+    border: solid 1px black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2/3;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
