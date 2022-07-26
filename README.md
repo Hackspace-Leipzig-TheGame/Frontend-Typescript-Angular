@@ -1,5 +1,16 @@
 # TheGameFrontend
 
+## TODO
+- Anbindungen Backend & Anpassungen an Definition
+- Design erstellen & implementieren
+- Animationen
+- Emoji-Style Keyboard
+- Auswahl aufheben bei Zuordnung von Karten auf Stapel
+- Indikation für aktiven spieler
+    - Deaktivieren des eigenen decks während anderer Runden
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Development server
